@@ -3,7 +3,6 @@ package com.dio.pontosystem.model;
 import lombok.*;
 
 import javax.persistence.*;
-
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -32,7 +31,6 @@ public class Movimentacao {
     private LocalDateTime dataSaida;
     private BigDecimal periodo;
     @ManyToOne
-//    @JoinColumn (name = )
     private Ocorrencia ocorrencia;
     @ManyToOne
     private Calendario calendario;

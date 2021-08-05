@@ -1,0 +1,39 @@
+2021-08-05 13:28:40 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "JORNADA" not found; SQL statement:
+select * from jornada [42102-200]
+2021-08-05 13:32:58 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "JORNADA" not found; SQL statement:
+select * from jornada [42102-200]
+2021-08-05 13:35:37 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "JORNADAJORNADA_TRABALHO" not found; SQL statement:
+select * from jornadaJORNADA_TRABALHO [42102-200]
+2021-08-05 13:35:38 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "JORNADAJORNADA_TRABALHO" not found; SQL statement:
+select * from jornadaJORNADA_TRABALHO [42102-200]
+2021-08-05 13:35:39 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "JORNADAJORNADA_TRABALHO" not found; SQL statement:
+select * from jornadaJORNADA_TRABALHO [42102-200]
+2021-08-05 13:35:40 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "JORNADAJORNADA_TRABALHO" not found; SQL statement:
+select * from jornadaJORNADA_TRABALHO [42102-200]
+2021-08-05 14:03:14 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "JORNADA" not found; SQL statement:
+select * from jornada [42102-200]
+2021-08-05 14:03:18 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "JORNADAJORNADA_TRABALHO" not found; SQL statement:
+select * from jornadaJORNADA_TRABALHO [42102-200]
+2021-08-05 14:03:20 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "JORNADAJORNADA_TRABALHO" not found; SQL statement:
+select * from jornadaJORNADA_TRABALHO [42102-200]
+2021-08-05 14:03:21 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "JORNADAJORNADA_TRABALHO" not found; SQL statement:
+select * from jornadaJORNADA_TRABALHO [42102-200]
+2021-08-05 14:03:22 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "JORNADAJORNADA_TRABALHO" not found; SQL statement:
+select * from jornadaJORNADA_TRABALHO [42102-200]
+2021-08-05 14:21:47 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM USUARIO_AUD JORNADA_TRABALHO JORNADA_TRABALHO[*]"; SQL statement:
+SELECT * FROM USUARIO_AUD JORNADA_TRABALHO JORNADA_TRABALHO [42000-200]
+2021-08-05 14:22:03 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE *[*] FROM JORNADA_TRABALHO"; expected "identifier"; SQL statement:
+delete * FROM JORNADA_TRABALHO [42001-200]

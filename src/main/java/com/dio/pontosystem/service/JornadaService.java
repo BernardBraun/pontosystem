@@ -24,7 +24,6 @@ public class JornadaService {
 
     }
 
-
     public List<JornadaTrabalho> findAll() {
         return jornadaRepository.findAll();
     }
