@@ -2,13 +2,18 @@ package com.dio.pontosystem.model;
 
 import lombok.*;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@EqualsAndHashCode
 @Builder
+
 public class CategoriaUsuario {
-    private long id;
+    @Id
+    private Long id;
     private String descricao;
 }

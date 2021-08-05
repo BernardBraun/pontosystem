@@ -2,10 +2,8 @@ package com.dio.pontosystem.model;
 
 import lombok.*;
 
-import javax.persistence.Embeddable;
-import javax.persistence.EmbeddedId;
+import javax.persistence.*;
 
-import javax.persistence.OneToMany;
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -16,6 +14,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @EqualsAndHashCode
 @Builder
+@Entity
 public class Movimentacao {
 
     @AllArgsConstructor
@@ -32,9 +31,10 @@ public class Movimentacao {
     private LocalDateTime dataEntrada;
     private LocalDateTime dataSaida;
     private BigDecimal periodo;
-    @OneToMany
+    @ManyToOne
+//    @JoinColumn (name = )
     private Ocorrencia ocorrencia;
-    @OneToMany
+    @ManyToOne
     private Calendario calendario;
 
 }

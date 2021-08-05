@@ -2,6 +2,8 @@ package com.dio.pontosystem.model;
 
 import lombok.*;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
@@ -11,8 +13,10 @@ import javax.persistence.OneToMany;
 @NoArgsConstructor
 @EqualsAndHashCode
 @Builder
+@Entity
 public class Localidade {
-    private long id;
+    @Id
+    private Long id;
     @ManyToOne
     private NivelAcesso nivelAcesso;
     private String descricao;
